@@ -17,14 +17,14 @@ Our main data generation process is shown in the figure above. You can access de
 
 ## Experimentation and Evaluation
 
-### Recurrent
+### Replication
 
 You can replicate our work as following. Replace the model base and dataset paths with your own file paths.
 
 ```bash
-sh scripts/llama_train.sh
+sh scripts/llama_train.sh  
 
-sh infer.sh
+sh scripts/infer.sh  
 ```
 
 
