@@ -23,7 +23,7 @@ def calculate_score(num_sentences):
 def calculate_sentence_similarity(test_sentence, generated_sentences, threshold,score):
     sentences1 = []
     sentences1.append(test_sentence)
-    model = SentenceTransformer('./paraphrase-multilingual-MiniLM-L12-v2')
+    model = SentenceTransformer('./model/paraphrase-multilingual-MiniLM-L12-v2')
     embeddings1 = model.encode(sentences1)
     for generated_sentence in generated_sentences:
         sentences2 = []
