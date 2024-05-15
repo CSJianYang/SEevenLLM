@@ -1,7 +1,7 @@
 
 # Scores:
 # 1: very bad, 2: bad, 3: Neutral (Neither good nor bad), 4: good, 5: very good
-EVALUATE_PROMPT="""As a knowledge analysis expert in the field of cybersecurity, please rate the following network security event Q&A results. The focus is on evaluating whether the provided answers align with the questions, whether the content is accurate, readable and valuable, and provide reasons. The required scoring range is from 1 to 5 points.If full marks are not given, optimized results must be given.
+PROMPT="""As a knowledge analysis expert in the field of cybersecurity, please rate the following network security event Q&A results. The focus is on evaluating whether the provided answers align with the questions, whether the content is accurate, readable and valuable, and provide reasons. The required scoring range is from 1 to 5 points.If full marks are not given, optimized results must be given.
 The content of the network security incident is: {input}
 The question raised regarding the content of this cybersecurity incident is: {instruction}
 The answer provided for this event's content and question is：{output}
