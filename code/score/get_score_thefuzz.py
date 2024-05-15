@@ -142,7 +142,7 @@ def calculate_total_score(accuracy_scores, start_id, end_id):
 
 # example
 test_jsonl_file = './data/test.jsonl'
-generated_jsonl_file = './result/qwen/test_result_qwen7b.jsonl'
+generated_jsonl_file = './SevenLLM-result/test-result-llama2-7b.jsonl'
 
 test_data = extract_output_values(test_jsonl_file)
 generated_data = extract_output_values(generated_jsonl_file)

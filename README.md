@@ -30,7 +30,7 @@ sh scripts/infer.sh
 
 ### Evaluation
 
-We have employed five different methods to comprehensively evaluate the capabilities of the model: **GPT-4 Score**,**Rouge-L Score**,**Semantic Score**, **multiple-choice questions**, and **human expert evaluation**. You can refer to our code at [code/score](https://github.com/CSJianYang/SEevenLLM/tree/main/code/score), and some of our results are available for your reference at [Sevent-result](https://github.com/CSJianYang/SEevenLLM/tree/main/Sevent-result).
+We have employed five different methods to comprehensively evaluate the capabilities of the model: **GPT-4 Score**,**Rouge-L Score**,**Semantic Score**, **multiple-choice questions**, and **human expert evaluation**. You can refer to our code at [code/score](https://github.com/CSJianYang/SEevenLLM/tree/main/code/score), and some of our results are available for your reference at [SevenLLM-result](https://github.com/CSJianYang/SEevenLLM/tree/main/Sevent-result).
 
 
 ## Citation

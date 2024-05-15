@@ -70,7 +70,7 @@ def calculate_total_score(sentence_scores):
 
 # example
 test_jsonl_file = './data/test.jsonl'
-generated_jsonl_file = './result/qwen/test_result_qwen7b.jsonl'
+generated_jsonl_file = './SevenLLM-result/test-result-llama2-7b.jsonl'
 
 test_data = {}
 generated_data = {}
