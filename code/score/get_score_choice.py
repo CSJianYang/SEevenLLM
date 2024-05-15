@@ -63,7 +63,7 @@ def calculate_total_score(accuracy_scores, start_id, end_id):
 
 # 示例测试数据集和生成数据集文件路径
 test_dataset_file = "./data/test.jsonl"
-generated_dataset_file = "./SevenLLM-result/test-result-llama2-7b.jsonl"
+generated_dataset_file = "./SevenLLM-result/llama/test-result-llama2-7b.jsonl"
 
 # 提取测试数据集和生成数据集中的输出值
 test_output_values = extract_output_values(test_dataset_file)
@@ -91,7 +91,7 @@ print("总分：", total_score)
 
 # 输出问题数据集中的输出
 if len(problematic_outputs) >= 1:
-    with open("/home/nlp/data/20231012-APTData/gendata/result-mu/try/score_test/qwen_1_5_2/dataset/result/problematic_outputs.jsonl", "w", encoding="utf-8") as f:
+    with open("./SevenLLM-result/llama/problematic_outputs.jsonl", "w", encoding="utf-8") as f:
         for output in problematic_outputs:
             f.write(json.dumps(output, ensure_ascii=False) + "\n")
 
