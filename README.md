@@ -5,7 +5,7 @@
 
 We introduce SEVENLLM, a comprehensive framework developed to enhance the understanding and task execution capabilities of Large Language Models (LLMs) in the analysis of cybersecurity events. SEVENLLM not only improves the understanding and operational task execution of LLMs within this domain but also proposes a set of evaluation methods tailored for these purposes. The various experiments conducted under this framework offer valuable references for your work in this area.
 
-You can learn more about our work in [SEvenLLM: Benchmarking, Eliciting, and Enhancing Abilities of Large Language Models in Cyber Threat Intelligence](https://arxiv.org/abs/2405.0344).
+You can learn more about our work in [SEvenLLM: Benchmarking, Eliciting, and Enhancing Abilities of Large Language Models in Cyber Threat Intelligence](https://arxiv.org/abs/2405.03446).
 
 ## Dataset
 
